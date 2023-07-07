@@ -1,6 +1,6 @@
 //Create a reference for canvas 
 canvas = document.getElementById('myCanvas');
-ctx = canas.getContext("2d")
+ctx = canvas.getContext("2d")
 
 //Give specific height and width to the car image
 greencar_width = 75;
@@ -25,7 +25,7 @@ function add() {
 
 function uploadBackground() {
 	//Define function ‘uploadBackground’
-	ctx.drawImage(background_imgTag, 0, e, canvas.Width, canvas.height)
+	ctx.drawImage(background_imgTag, 0, 0, canvas.Width, canvas.height)
 
 }
 
